@@ -4,6 +4,6 @@ project(CodingC C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(CodingC
-        beecrowd/as_moedas_de_robbie.c
+        test.c
 
 )
