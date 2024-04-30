@@ -49,11 +49,11 @@ cmake_ninja_workdir = /home/marcos/Computacao/CodingC/cmake-build-debug/
 
 build cmake_object_order_depends_target_CodingC: phony || CMakeFiles/CodingC.dir
 
-build CMakeFiles/CodingC.dir/beecrowd/aaah.c.o: C_COMPILER__CodingC_unscanned_Debug /home/marcos/Computacao/CodingC/beecrowd/aaah.c || cmake_object_order_depends_target_CodingC
-  DEP_FILE = CMakeFiles/CodingC.dir/beecrowd/aaah.c.o.d
+build CMakeFiles/CodingC.dir/decifrando_a_carta_criptografada.c.o: C_COMPILER__CodingC_unscanned_Debug /home/marcos/Computacao/CodingC/decifrando_a_carta_criptografada.c || cmake_object_order_depends_target_CodingC
+  DEP_FILE = CMakeFiles/CodingC.dir/decifrando_a_carta_criptografada.c.o.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CodingC.dir
-  OBJECT_FILE_DIR = CMakeFiles/CodingC.dir/beecrowd
+  OBJECT_FILE_DIR = CMakeFiles/CodingC.dir
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/CodingC.dir/beecrowd/aaah.c.o: C_COMPILER__CodingC_unscanned_De
 #############################################
 # Link the executable CodingC
 
-build CodingC: C_EXECUTABLE_LINKER__CodingC_Debug CMakeFiles/CodingC.dir/beecrowd/aaah.c.o
+build CodingC: C_EXECUTABLE_LINKER__CodingC_Debug CMakeFiles/CodingC.dir/decifrando_a_carta_criptografada.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/CodingC.dir
   POST_BUILD = :
