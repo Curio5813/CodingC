@@ -1,11 +1,13 @@
 # ninja log v5
-40	72	1714392920547746237	CodingC	34f8556b9a24f3d8
-1	32	1714474974516323881	build.ninja	20ebe0f0c04a2d04
-1	35	1714265440583252410	CMakeFiles/CodingC.dir/test.c.o	7702a6ecfc1b2cd4
-1	40	1714392920515746418	CMakeFiles/CodingC.dir/beecrowd/media_3.c.o	403f2864f5ee7f01
-1	44	1714265647306771006	CMakeFiles/CodingC.dir/beecrowd/as_moedas_de_robbie.c.o	b2534c331a43ab6d
-1	25	1714474974516323881	build.ninja	20ebe0f0c04a2d04
-1	96	1714474974619323518	CMakeFiles/CodingC.dir/beecrowd/relogio_antigo.c.o	d12f0b59b1d4a2bb
-96	142	1714474974664323358	CodingC	3f67bfc133d66980
 1	41	1714475035232101259	CMakeFiles/CodingC.dir/beecrowd/relogio_antigo.c.o	d12f0b59b1d4a2bb
 41	74	1714475035264101137	CodingC	3f67bfc133d66980
+1	25	1714476721477139318	build.ninja	20ebe0f0c04a2d04
+1	35	1714265440583252410	CMakeFiles/CodingC.dir/test.c.o	7702a6ecfc1b2cd4
+1	40	1714392920515746418	CMakeFiles/CodingC.dir/beecrowd/media_3.c.o	403f2864f5ee7f01
+1	51	1714476705892230650	CMakeFiles/CodingC.dir/beecrowd/aaah.c.o	d6a6754f98571137
+1	44	1714265647306771006	CMakeFiles/CodingC.dir/beecrowd/as_moedas_de_robbie.c.o	b2534c331a43ab6d
+1	25	1714476721477139318	build.ninja	20ebe0f0c04a2d04
+1	40	1714476721525139037	CMakeFiles/CodingC.dir/beecrowd/aaah.c.o	d6a6754f98571137
+41	72	1714476721556138855	CodingC	466f0fbb1735fb3c
+1	43	1714476881608374203	CMakeFiles/CodingC.dir/beecrowd/aaah.c.o	d6a6754f98571137
+43	80	1714476881645374346	CodingC	466f0fbb1735fb3c

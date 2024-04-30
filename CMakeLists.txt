@@ -4,5 +4,5 @@ project(CodingC C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(CodingC
-        beecrowd/relogio_antigo.c
+        beecrowd/aaah.c
 )
