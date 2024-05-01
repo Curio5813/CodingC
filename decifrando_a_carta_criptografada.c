@@ -69,9 +69,9 @@ int main(){
                 }
                 cont = 0;
 
+
             }
         }
-        printf("\n");
     }
     return 0;
 }
