@@ -1,13 +1,13 @@
 # ninja log v5
 2	57	1714580170079975205	CMakeFiles/CodingC.dir/beecrowd/jogo_do_operador.c.o	314ea9d6b906dd1d
 1	41	1714475035232101259	CMakeFiles/CodingC.dir/beecrowd/relogio_antigo.c.o	d12f0b59b1d4a2bb
-57	87	1714580170108974936	CodingC	8c56c2a2e6e82071
-1	35	1714580814377396308	build.ninja	20ebe0f0c04a2d04
+38	69	1714580814455395395	CodingC	f18ee1e8ad208086
+1	27	1714589462307862007	build.ninja	20ebe0f0c04a2d04
 1	48	1714496588713965630	CMakeFiles/CodingC.dir/decifrando_a_carta_criptografada.c.o	714701853244b18f
 1	35	1714265440583252410	CMakeFiles/CodingC.dir/test.c.o	7702a6ecfc1b2cd4
 1	40	1714392920515746418	CMakeFiles/CodingC.dir/beecrowd/media_3.c.o	403f2864f5ee7f01
 1	43	1714476881608374203	CMakeFiles/CodingC.dir/beecrowd/aaah.c.o	d6a6754f98571137
 1	44	1714265647306771006	CMakeFiles/CodingC.dir/beecrowd/as_moedas_de_robbie.c.o	b2534c331a43ab6d
-1	27	1714580814377396308	build.ninja	20ebe0f0c04a2d04
 0	37	1714580814423395770	CMakeFiles/CodingC.dir/beecrowd/extremamente_basico.c.o	eeb073fc0a0127a8
-38	69	1714580814455395395	CodingC	f18ee1e8ad208086
+0	42	1714589816686692078	CMakeFiles/CodingC.dir/calculo_simples.c.o	de228016ee81706c
+42	80	1714589816724691743	CodingC	5a531016ded0bb0
