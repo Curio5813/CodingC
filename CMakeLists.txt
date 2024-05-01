@@ -4,5 +4,5 @@ project(CodingC C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(CodingC
-        beecrowd/jogo_do_operador.c
+        beecrowd/extremamente_basico.c
 )
