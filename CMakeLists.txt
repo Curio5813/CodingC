@@ -3,6 +3,11 @@ project(CodingC C)
 
 set(CMAKE_C_STANDARD 99)
 
+set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
+
+
 add_executable(CodingC
-        beecrowd/jogo_do_operador.c
+        beecrowd/digitos.c
 )
+
+

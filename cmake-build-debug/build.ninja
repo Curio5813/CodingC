@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/marcos/Computacao/CodingC/cmake-build-debug/
 
 build cmake_object_order_depends_target_CodingC: phony || CMakeFiles/CodingC.dir
 
-build CMakeFiles/CodingC.dir/beecrowd/jogo_do_operador.c.o: C_COMPILER__CodingC_unscanned_Debug /home/marcos/Computacao/CodingC/beecrowd/jogo_do_operador.c || cmake_object_order_depends_target_CodingC
-  DEP_FILE = CMakeFiles/CodingC.dir/beecrowd/jogo_do_operador.c.o.d
+build CMakeFiles/CodingC.dir/beecrowd/digitos.c.o: C_COMPILER__CodingC_unscanned_Debug /home/marcos/Computacao/CodingC/beecrowd/digitos.c || cmake_object_order_depends_target_CodingC
+  DEP_FILE = CMakeFiles/CodingC.dir/beecrowd/digitos.c.o.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CodingC.dir
   OBJECT_FILE_DIR = CMakeFiles/CodingC.dir/beecrowd
@@ -63,8 +63,9 @@ build CMakeFiles/CodingC.dir/beecrowd/jogo_do_operador.c.o: C_COMPILER__CodingC_
 #############################################
 # Link the executable CodingC
 
-build CodingC: C_EXECUTABLE_LINKER__CodingC_Debug CMakeFiles/CodingC.dir/beecrowd/jogo_do_operador.c.o
+build CodingC: C_EXECUTABLE_LINKER__CodingC_Debug CMakeFiles/CodingC.dir/beecrowd/digitos.c.o
   FLAGS = -g
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/CodingC.dir
   POST_BUILD = :
   PRE_LINK = :
