@@ -1,12 +1,12 @@
 #include <stdio.h>
-
+#include <string.h>
 
 
 int main(){
 
     int t, n, valores[51][51], indice[51], calculo, respostas[51], cont, add, sub, mult, verf;
 
-    char nada, igual, jogadores[51][51], operacao[51];
+    char nada, igual, operacao[51];
 
     while(scanf("%d", &t) != EOF) {
         n = 0;
@@ -20,6 +20,7 @@ int main(){
             scanf("%d", &valores[i][n + 2]);
             n = 0;
         }
+        char jogadores[t][51];
         for (int i = 0; i < t; i++) {
             scanf("%s", &jogadores[i][51]);
             scanf("%c", &nada);
@@ -71,7 +72,6 @@ int main(){
                 if (mult == valores[indice[i] - 1][2]){
                     respostas[i + 1] = 0;
                     verf = 1;
-                    printf("Ok3\n");
                 }
                 if(verf == 0) {
                     respostas[i + 1] = 1;
@@ -82,35 +82,46 @@ int main(){
                 }
             }
         }
-        /*
-        for (int i = 0; i < t + 1; i++) {
-            printf("%d ", respostas[i]);
-        }
-        printf("\n");
-        for(int i = 0; i < t + 1; i++){
-            printf("%s ", jogadores[i]);
-        }
-        printf("\n");
-        printf("%d\n", cont);
-         */
-        for(int i = 0; i < t + 1; i++){
-            if(i == t && respostas[i] == 0) {
-                printf("%s\n", jogadores[i]);
+        int k = 0;
+        char nao_passa[t + 1][51];
+        for(int i = 0; i < t + 1; i++) {
+            if (i == t && respostas[i] == 0) {
+                sprintf(nao_passa[k], "%s", jogadores[i]);
                 break;
             }
-            if(i == t && respostas[i] == 1){
-                printf("\n");
-            }
-            if(cont == 0){
+            if (cont == 0) {
                 printf("None Shall Pass!\n");
                 break;
             }
-            if(cont == t){
+            if (cont == t) {
                 printf("You Shall All Pass!\n");
                 break;
             }
-            if(respostas[i] == 0){
-                printf("%s ", jogadores[i]);
+            if (respostas[i] == 0) {
+                sprintf(nao_passa[k], "%s", jogadores[i]);
+                k += 1;
+            }
+        }
+        if(cont != t && cont != 0) {
+            char *vetor[] = {};
+            for (int i = 0; i < k + 1; i++) {
+                vetor[i] = nao_passa[i];
+            }
+            for (int i = 0; i < k + 1 - 1; i++) {
+                for (int j = 0; j < k + 1 - i - 1; j++) {
+                    if (strcmp(vetor[j], vetor[j + 1]) > 0) {
+                        char *temp = vetor[j];
+                        vetor[j] = vetor[j + 1];
+                        vetor[j + 1] = temp;
+                    }
+                }
+            }
+            for (int i = 0; i < k + 1; i++) {
+                if (i == k) {
+                    printf("%s\n", vetor[i]);
+                    break;
+                }
+                printf("%s ", vetor[i]);
             }
         }
     }
