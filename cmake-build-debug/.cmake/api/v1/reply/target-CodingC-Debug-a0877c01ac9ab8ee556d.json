@@ -95,7 +95,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "beecrowd/fibonacci_facil.c",
+			"path" : "beecrowd/fibonacci_em_vetor.c",
 			"sourceGroupIndex" : 0
 		}
 	],
