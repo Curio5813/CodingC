@@ -7,7 +7,8 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/fibonacci_em_vetor.c
+        beecrowd/notacao_cientifica.c
+
 )
 
 
