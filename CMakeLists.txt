@@ -7,9 +7,9 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/nome_no_formulario.c
-
+        beecrowd/media_1.c
 
 )
+
 
 
