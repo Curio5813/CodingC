@@ -5,9 +5,9 @@
 0	37	1715692183822538461	CMakeFiles/CodingC.dir/beecrowd/animal.c.o	725de5131cb3742a
 1	39	1714987358377842878	CMakeFiles/CodingC.dir/beecrowd/fibonacci_facil.c.o	1c079ab9e1c2d1c3
 1	55	1714693643428372876	CMakeFiles/CodingC.dir/beecrowd/soma_ate_n.c.o	2a94e9e0ab8f4a58
-38	74	1715703646000442400	CodingC	452a9dd4690a6d89
+230	377	1716033684463430367	CodingC	e02ec032b0096dcc
 1	38	1715703645965442555	CMakeFiles/CodingC.dir/beecrowd/novo_recorde.c.o	3309e77cce50b088
-1	30	1716033684064434216	build.ninja	20ebe0f0c04a2d04
+1	93	1716033997156423412	build.ninja	20ebe0f0c04a2d04
 0	40	1715158461541610123	CMakeFiles/CodingC.dir/beecrowd/nome_no_formulario.c.o	3f9fd909cbb7b932
 1	38	1715335265843850168	CMakeFiles/CodingC.dir/beecrowd/media_1.c.o	8a20b3860b6fd61b
 1	42	1714986089712598258	CMakeFiles/CodingC.dir/beecrowd/death_knight_hero.c.o	dbf2e9933ffb98b
@@ -16,7 +16,9 @@
 1	36	1715005108910960465	CMakeFiles/CodingC.dir/beecrowd/fibonacci_em_vetor.c.o	7b3baaf28fb0d126
 1	39	1715697321805347851	CMakeFiles/CodingC.dir/beecrowd/qual_triangulo.c.o	7f136ea65952e803
 1	50	1715128071055862759	CMakeFiles/CodingC.dir/beecrowd/precisao_do_sensor.c.o	35284f5cea5e087a
-1	47	1715337256208495767	CMakeFiles/CodingC.dir/beecrowd/notas_e_moedas.c.o	f311b7f6b581306b
-1	93	1716033684064434216	build.ninja	20ebe0f0c04a2d04
 1	230	1716033684318431766	CMakeFiles/CodingC.dir/beecrowd/numeros_pares.c.o	6cb3b03ed2c5400f
-230	377	1716033684463430367	CodingC	e02ec032b0096dcc
+1	47	1715337256208495767	CMakeFiles/CodingC.dir/beecrowd/notas_e_moedas.c.o	f311b7f6b581306b
+1	41	1716034156963074647	CMakeFiles/CodingC.dir/beecrowd/numeros_positivos.c.o	dff2a664aa0b9da4
+41	78	1716034156999075045	CodingC	4b24ce73b79d8683
+1	40	1716034213928650494	CMakeFiles/CodingC.dir/beecrowd/numeros_positivos.c.o	dff2a664aa0b9da4
+40	79	1716034213966650844	CodingC	4b24ce73b79d8683
