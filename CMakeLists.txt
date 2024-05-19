@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/pares_entre_cinco_numeros.c
+        beecrowd/quadrado_de_pares.c
 
 )
 
