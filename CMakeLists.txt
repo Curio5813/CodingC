@@ -7,7 +7,8 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        "beecrowd/senha_fixa.c"
+        beecrowd/raiz_quadrada_de_2.c
+
 
 )
 
