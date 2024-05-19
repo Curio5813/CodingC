@@ -7,9 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/raiz_quadrada_de_2.c
-
-
+        beecrowd/soma_de_impares_consecutivos_i.c
 )
 
 
