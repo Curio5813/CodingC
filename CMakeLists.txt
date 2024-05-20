@@ -7,7 +7,8 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/soma_de_impares_consecutivos_i.c
+        beecrowd/overflow.c
+
 )
 
 
