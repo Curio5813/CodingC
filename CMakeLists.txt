@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/overflow.c
+        beecrowd/guerreiros_etruscos_nunca_jogam_xadrez.c
 
 )
 
