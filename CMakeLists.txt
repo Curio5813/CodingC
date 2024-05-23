@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/guerreiros_etruscos_nunca_jogam_xadrez.c
+        beecrowd/viagem_a_marte_na_velocidade_de_primo.c
 
 )
 

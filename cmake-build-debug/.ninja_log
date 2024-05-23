@@ -7,11 +7,11 @@
 1	105	1716083364454399709	CMakeFiles/CodingC.dir/beecrowd/pares_entre_cinco_numeros.c.o	275d5d0418ecc629
 1	55	1714693643428372876	CMakeFiles/CodingC.dir/beecrowd/soma_ate_n.c.o	2a94e9e0ab8f4a58
 1	38	1716085476135225343	CMakeFiles/CodingC.dir/beecrowd/senha_fixa_.c.o	f9cfc49536143715
-118	230	1716215921817997483	CodingC	cfb7437537e0c5c4
+55	97	1716371398089958507	CodingC	7a6f55c6d714aa4f
 1	39	1716088878336712823	CMakeFiles/CodingC.dir/beecrowd/raiz_quadrada_de_2.c.o	4ddbebff9ca45151
 1	40	1716158793304106101	CMakeFiles/CodingC.dir/beecrowd/soma_de_impares_consecutivos_i.c.o	62c7dbd8bc73fd94
 1	38	1715703645965442555	CMakeFiles/CodingC.dir/beecrowd/novo_recorde.c.o	3309e77cce50b088
-1	26	1716371378583282856	build.ninja	20ebe0f0c04a2d04
+2	36	1716481953708966582	build.ninja	20ebe0f0c04a2d04
 1	41	1716160615650508524	CMakeFiles/CodingC.dir/beecrowd/primos_gemeos.c.o	ec7850f433e39ad2
 1	38	1716087077889465127	CMakeFiles/CodingC.dir/beecrowd/idades.c.o	e17369ea2caca91a
 0	40	1715158461541610123	CMakeFiles/CodingC.dir/beecrowd/nome_no_formulario.c.o	3f9fd909cbb7b932
@@ -20,6 +20,7 @@
 1	53	1716157840565169120	CMakeFiles/CodingC.dir/beecrowd/formula_de_bhaskara.c.o	95d559f2d8433ef4
 1	39	1715335635534539875	CMakeFiles/CodingC.dir/beecrowd/media_2.c.o	30241436c1ba6a3c
 1	50	1714657523143401314	CMakeFiles/CodingC.dir/beecrowd/digitos.c.o	f69b66da1c0dec95
+1	55	1716371398049959149	CMakeFiles/CodingC.dir/beecrowd/guerreiros_etruscos_nunca_jogam_xadrez.c.o	3809ad1dd6bbd5bd
 1	40	1716034213928650494	CMakeFiles/CodingC.dir/beecrowd/numeros_positivos.c.o	dff2a664aa0b9da4
 1	36	1715005108910960465	CMakeFiles/CodingC.dir/beecrowd/fibonacci_em_vetor.c.o	7b3baaf28fb0d126
 1	39	1715697321805347851	CMakeFiles/CodingC.dir/beecrowd/qual_triangulo.c.o	7f136ea65952e803
@@ -30,8 +31,7 @@
 1	38	1716084460910469918	CMakeFiles/CodingC.dir/beecrowd/quadrado_de_pares.c.o	9dd4af116c94a84c
 1	47	1715337256208495767	CMakeFiles/CodingC.dir/beecrowd/notas_e_moedas.c.o	f311b7f6b581306b
 1	117	1716215921706012303	CMakeFiles/CodingC.dir/beecrowd/overflow.c.o	9a5be864242544c2
-2	36	1716371378583282856	build.ninja	20ebe0f0c04a2d04
-1	124	1716371378714280601	CMakeFiles/CodingC.dir/beecrowd/guerreiros_etruscos_nunca_jogam_xadrez.c.o	3809ad1dd6bbd5bd
-125	262	1716371378853278209	CodingC	7a6f55c6d714aa4f
-1	55	1716371398049959149	CMakeFiles/CodingC.dir/beecrowd/guerreiros_etruscos_nunca_jogam_xadrez.c.o	3809ad1dd6bbd5bd
-55	97	1716371398089958507	CodingC	7a6f55c6d714aa4f
+1	105	1716482571535395402	CMakeFiles/CodingC.dir/beecrowd/viagem_a_marte_na_velocidade_de_primo.c.o	27044a4076581ae7
+106	223	1716482571650388808	CodingC	841259620dc9bfe
+1	42	1716482596999965730	CMakeFiles/CodingC.dir/beecrowd/viagem_a_marte_na_velocidade_de_primo.c.o	27044a4076581ae7
+42	78	1716482597036963698	CodingC	841259620dc9bfe
