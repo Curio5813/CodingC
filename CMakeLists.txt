@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/maquina_de_verificacao_automatizada.c
+        beecrowd/procurando_nessy.c
 )
 
 
