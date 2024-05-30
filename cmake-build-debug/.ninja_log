@@ -1,8 +1,9 @@
 # ninja log v6
-1	25	1717059608222025898	build.ninja	351926a5c5a12d17
-1	45	1717059608231025839	CMakeFiles/CodingC.dir/beecrowd/bits_trocados.c.o	9bf5727caf97858b
-45	85	1717059608275025551	CodingC	fb52bdb4ade2bff9
-0	40	1717059638163829455	CMakeFiles/CodingC.dir/beecrowd/bits_trocados.c.o	9bf5727caf97858b
-41	78	1717059638204829186	CodingC	fb52bdb4ade2bff9
-1	64	1717059748044109233	CMakeFiles/CodingC.dir/beecrowd/bits_trocados.c.o	9bf5727caf97858b
 64	119	1717059748107108821	CodingC	fb52bdb4ade2bff9
+1	64	1717059748044109233	CMakeFiles/CodingC.dir/beecrowd/bits_trocados.c.o	9bf5727caf97858b
+1	25	1717079189388325006	build.ninja	351926a5c5a12d17
+1	36	1717079189388325006	build.ninja	351926a5c5a12d17
+1	47	1717079189400324932	CMakeFiles/CodingC.dir/beecrowd/maquina_de_verificacao_automatizada.c.o	f3f36d476411320
+47	93	1717079189446324651	CodingC	3bb864ced49ff70e
+1	50	1717079219486140160	CMakeFiles/CodingC.dir/beecrowd/maquina_de_verificacao_automatizada.c.o	f3f36d476411320
+51	104	1717079219536139851	CodingC	3bb864ced49ff70e
