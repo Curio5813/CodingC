@@ -1,12 +1,13 @@
 # ninja log v6
-1	40	1717173525045873597	CMakeFiles/CodingC.dir/beecrowd/quermesse.c.o	19d40df9317eeef8
-1	28	1717197847807636271	build.ninja	351926a5c5a12d17
-1	64	1717059748044109233	CMakeFiles/CodingC.dir/beecrowd/bits_trocados.c.o	9bf5727caf97858b
-1	50	1717079219486140160	CMakeFiles/CodingC.dir/beecrowd/maquina_de_verificacao_automatizada.c.o	f3f36d476411320
-40	76	1717173525084873210	CodingC	33817a1ace71a276
 1	39	1717091929127115883	CMakeFiles/CodingC.dir/beecrowd/procurando_nessy.c.o	5b033ff8c7269e24
-1	26	1717197847807636271	build.ninja	351926a5c5a12d17
-1	128	1717197847816636226	CMakeFiles/CodingC.dir/beecrowd/chocolate.c.o	a55a9aab523c7b85
-128	183	1717197847943635588	CodingC	116e67547436ffed
-1	40	1717197920427299427	CMakeFiles/CodingC.dir/beecrowd/chocolate.c.o	a55a9aab523c7b85
 40	78	1717197920466299260	CodingC	116e67547436ffed
+1	50	1717079219486140160	CMakeFiles/CodingC.dir/beecrowd/maquina_de_verificacao_automatizada.c.o	f3f36d476411320
+1	64	1717059748044109233	CMakeFiles/CodingC.dir/beecrowd/bits_trocados.c.o	9bf5727caf97858b
+1	40	1717197920427299427	CMakeFiles/CodingC.dir/beecrowd/chocolate.c.o	a55a9aab523c7b85
+1	26	1717240739360040208	build.ninja	351926a5c5a12d17
+1	40	1717173525045873597	CMakeFiles/CodingC.dir/beecrowd/quermesse.c.o	19d40df9317eeef8
+2	83	1717240739360040208	build.ninja	351926a5c5a12d17
+1	125	1717240739376040166	CMakeFiles/CodingC.dir/beecrowd/garcom.c.o	e13b480d82eef819
+125	226	1717240739500039833	CodingC	417a085149b0e5a0
+1	54	1717240769112960827	CMakeFiles/CodingC.dir/beecrowd/garcom.c.o	e13b480d82eef819
+54	100	1717240769165960686	CodingC	417a085149b0e5a0
