@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/transporte_de_conteineres.c
+        beecrowd/vice_campeao.c
 )
 
 
