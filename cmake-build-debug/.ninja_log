@@ -1,17 +1,10 @@
 # ninja log v6
-1	26	1718034725048852644	build.ninja	351926a5c5a12d17
-1	61	1718034706789834857	CMakeFiles/CodingC.dir/beecrowd/ordenando_a_lista_de_criancas_do_papai_noel.c.o	2bdc5402c8fbe05c
-2	60	1718034706790834858	CMakeFiles/CodingC.dir/beecrowd/errrou.c.o	ca02097f77e22a06
-65	122	1717776941032869335	CodingC	468502e2f29017f9
-1	26	1718034725048852644	build.ninja	97cc6bc40d5f421d
-1	51	1718034725057852652	CodingC	e53a6a1b03cf6d84
-1	55	1718034922784811779	CMakeFiles/CodingC.dir/beecrowd/errrou.c.o	ca02097f77e22a06
-56	92	1718034922839811716	CodingC	e53a6a1b03cf6d84
-1	45	1718035005693689730	CMakeFiles/CodingC.dir/beecrowd/errrou.c.o	ca02097f77e22a06
-45	81	1718035005737689651	CodingC	e53a6a1b03cf6d84
-1	51	1718035147556371982	CMakeFiles/CodingC.dir/beecrowd/errrou.c.o	ca02097f77e22a06
-51	86	1718035147607371847	CodingC	e53a6a1b03cf6d84
-1	50	1718035307471885130	CMakeFiles/CodingC.dir/beecrowd/errrou.c.o	ca02097f77e22a06
-50	86	1718035307520884963	CodingC	e53a6a1b03cf6d84
-1	53	1718035352486728535	CMakeFiles/CodingC.dir/beecrowd/errrou.c.o	ca02097f77e22a06
+1	71	1718041360243105034	CMakeFiles/CodingC.dir/beecrowd/entao_e_natal.c.o	f62e5e3579036650
 53	89	1718035352538728350	CodingC	e53a6a1b03cf6d84
+1	65	1718041360243105034	CMakeFiles/CodingC.dir/beecrowd/errrou.c.o	ca02097f77e22a06
+1	61	1718034706789834857	CMakeFiles/CodingC.dir/beecrowd/ordenando_a_lista_de_criancas_do_papai_noel.c.o	2bdc5402c8fbe05c
+1	26	1718041371552024732	build.ninja	97cc6bc40d5f421d
+1	28	1718041371552024732	build.ninja	97cc6bc40d5f421d
+1	55	1718041371562024661	CodingC	2de10ecf382f6926
+0	38	1718041408800760365	CMakeFiles/CodingC.dir/beecrowd/entao_e_natal.c.o	f62e5e3579036650
+38	73	1718041408837760103	CodingC	2de10ecf382f6926
