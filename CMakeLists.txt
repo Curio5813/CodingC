@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/ordenando_a_lista_de_criancas_do_papai_noel.c
+        beecrowd/errrou.c
 )
 
 
