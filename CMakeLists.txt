@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/truco_da_galera_1_0.c
+        beecrowd/lista_de_treinamento.c
 
 )
 
