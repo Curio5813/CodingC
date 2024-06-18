@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/zerinho_ou_um.c
+        beecrowd/detetive_watson.c
 
 )
 
