@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/contagem_de_digitos.c
+        beecrowd/instrucoes_do_robo.c
 
 )
 
