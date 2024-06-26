@@ -1,19 +1,5 @@
 # ninja log v6
 1	53	1718852503696805636	CMakeFiles/CodingC.dir/beecrowd/contagem_de_digitos.c.o	fc5172c20e574f45
-53	92	1718852503748805592	CodingC	5bcc30cb7c0fe1e9
-1	37	1718980499622924956	build.ninja	b36768164f683ad0
-1	39	1718980499622924956	build.ninja	b36768164f683ad0
-0	119	1718980499636924851	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
-120	222	1718980499755923962	CodingC	163fd5d30f467b5e
-1	44	1718980619082080045	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
-44	80	1718980619125079757	CodingC	163fd5d30f467b5e
-0	43	1718980666821766668	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
-43	80	1718980666864766391	CodingC	163fd5d30f467b5e
-1	44	1718980842007711902	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
-44	81	1718980842050711659	CodingC	163fd5d30f467b5e
-1	52	1718980961905059170	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
-52	88	1718980961956058903	CodingC	163fd5d30f467b5e
-1	43	1718981077229471818	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
-43	79	1718981077271471610	CodingC	163fd5d30f467b5e
-1	45	1718981168653028927	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
 45	84	1718981168697028718	CodingC	163fd5d30f467b5e
+1	39	1719416020155298577	build.ninja	b36768164f683ad0
+1	45	1718981168653028927	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
