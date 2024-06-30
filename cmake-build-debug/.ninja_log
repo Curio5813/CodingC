@@ -1,10 +1,19 @@
 # ninja log v6
-2	130	1719503168303958085	CMakeFiles/CodingC.dir/beecrowd/handebol.c.o	bc20d09cfbf4f7ff
-1	130	1719503168302958085	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
-1	39	1719503181491956563	build.ninja	b36768164f683ad0
-45	84	1718981168697028718	CodingC	163fd5d30f467b5e
 1	53	1718852503696805636	CMakeFiles/CodingC.dir/beecrowd/contagem_de_digitos.c.o	fc5172c20e574f45
-1	27	1719503181491956563	build.ninja	b36768164f683ad0
-1	38	1719503181501956563	CodingC	4c955b661d168810
-1	42	1719503587857605922	CMakeFiles/CodingC.dir/beecrowd/handebol.c.o	bc20d09cfbf4f7ff
 42	80	1719503587898606039	CodingC	4c955b661d168810
+1	27	1719759862315628288	build.ninja	b36768164f683ad0
+1	130	1719503168302958085	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
+1	42	1719503587857605922	CMakeFiles/CodingC.dir/beecrowd/handebol.c.o	bc20d09cfbf4f7ff
+0	35	1719759862315628288	build.ninja	b36768164f683ad0
+0	96	1719759862327628200	CMakeFiles/CodingC.dir/beecrowd/trapezios_de_natal.c.o	d21c2a58882cd370
+97	226	1719759862423627488	CodingC	b6b9d242a3c23637
+1	38	1719759925766160539	CMakeFiles/CodingC.dir/beecrowd/trapezios_de_natal.c.o	d21c2a58882cd370
+38	79	1719759925803160267	CodingC	b6b9d242a3c23637
+1	39	1719759940032056050	CMakeFiles/CodingC.dir/beecrowd/trapezios_de_natal.c.o	d21c2a58882cd370
+39	78	1719759940070055773	CodingC	b6b9d242a3c23637
+1	39	1719760043128307719	CMakeFiles/CodingC.dir/beecrowd/trapezios_de_natal.c.o	d21c2a58882cd370
+40	77	1719760043167307438	CodingC	b6b9d242a3c23637
+5	114	1719760170710395581	CMakeFiles/CodingC.dir/beecrowd/trapezios_de_natal.c.o	d21c2a58882cd370
+114	249	1719760170819394807	CodingC	b6b9d242a3c23637
+1	56	1719760199123303849	CMakeFiles/CodingC.dir/beecrowd/trapezios_de_natal.c.o	d21c2a58882cd370
+56	96	1719760199178303805	CodingC	b6b9d242a3c23637

@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/handebol.c
+        beecrowd/trapezios_de_natal.c
 
 )
 
