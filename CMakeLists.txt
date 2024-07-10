@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        CodeAbbey/problem385.c
+        beecrowd/fazendo_pandorgas.c
 
 
 )
