@@ -1,12 +1,13 @@
 # ninja log v6
-1	56	1719760199123303849	CMakeFiles/CodingC.dir/beecrowd/trapezios_de_natal.c.o	d21c2a58882cd370
-1	42	1719503587857605922	CMakeFiles/CodingC.dir/beecrowd/handebol.c.o	bc20d09cfbf4f7ff
-1	130	1719503168302958085	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
-0	26	1720632111076221743	build.ninja	b36768164f683ad0
-1	45	1719893500215443669	CMakeFiles/CodingC.dir/CodeAbbey/problem385.c.o	419528fbca1fdf7d
-45	83	1719893500259443581	CodingC	4e35603887300f0f
-1	53	1718852503696805636	CMakeFiles/CodingC.dir/beecrowd/contagem_de_digitos.c.o	fc5172c20e574f45
-1	42	1719851519278910285	CMakeFiles/CodingC.dir/beecrowd/variacoes.c.o	326eda2084ef7a08
-4	54	1720632111076221743	build.ninja	b36768164f683ad0
 1	105	1720632111093221608	CMakeFiles/CodingC.dir/beecrowd/fazendo_pandorgas.c.o	46dba49a874591d1
+1	42	1719851519278910285	CMakeFiles/CodingC.dir/beecrowd/variacoes.c.o	326eda2084ef7a08
+1	53	1718852503696805636	CMakeFiles/CodingC.dir/beecrowd/contagem_de_digitos.c.o	fc5172c20e574f45
 105	214	1720632111196220786	CodingC	c1e450a7f881d546
+1	45	1719893500215443669	CMakeFiles/CodingC.dir/CodeAbbey/problem385.c.o	419528fbca1fdf7d
+4	54	1720635026447751281	build.ninja	b36768164f683ad0
+1	130	1719503168302958085	CMakeFiles/CodingC.dir/beecrowd/instrucoes_do_robo.c.o	aebe4a164771186d
+1	42	1719503587857605922	CMakeFiles/CodingC.dir/beecrowd/handebol.c.o	bc20d09cfbf4f7ff
+1	56	1719760199123303849	CMakeFiles/CodingC.dir/beecrowd/trapezios_de_natal.c.o	d21c2a58882cd370
+1	48	1720635026447751281	build.ninja	b36768164f683ad0
+1	125	1720635026467751276	CMakeFiles/CodingC.dir/beecrowd/decoracao_natalina.c.o	11216eb9c84686d9
+125	197	1720635026591751243	CodingC	450d35a93801fab0
