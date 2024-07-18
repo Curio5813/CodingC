@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 
 int main(){
@@ -12,7 +11,7 @@ int main(){
 
 			scanf("%d %d", &xi, &yi);
 
-			if(xi <= x && xi <= y && yi <= x && yi <= y){
+			if(xi <= x && yi <= y || xi <= y && yi <= x){
 
 				printf("Sim\n");
 
