@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/tamanho_da_placa.c
+        beecrowd/derivada_de_13_variaveis.c
 
 )
 
