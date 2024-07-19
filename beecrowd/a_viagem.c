@@ -1,30 +1,35 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
+
 
 
 int main(){
 
-	long double gastos = 0.000, gasto[1000], media, despesa, despesas = 0.000; int n, cont = 0;
+	int n;
 
-	scanf("%d", &n);
-	while(n != 0){
-		for(int i = 0; i < n; i++){
-			scanf("%llf", &gasto[i]);
-			gastos += gasto[i];
+	while(scanf("%d", &n)){
+        float soma = 0, media, trocas = 0;
+        if(n == 0){
+            break;
+        }
+        else{
+            float despesas[n];
+            float tam = sizeof(despesas)/sizeof(despesas[0]);
+            for(int i = 0; i < n; i++){
+                scanf("%f", &despesas[i]);
+                soma += despesas[i];
+            }
+            media = (soma / tam);
+            media = round(media);
+            for(int i = 0; i < n; i++){
+                if(despesas[i] < media){
+                    trocas += (media - despesas[i]);
+                }
+            }
+        }
+        printf("$%.2f\n", trocas);
 
-		}media = gastos / n;
-		printf("%llf\n", media);
-		for(int i = 0; i < n; i++){
-			if(gasto[i] > media){
-				despesa = gasto[i] - media;
-				despesas += despesa;
-				printf("%.2llf\n", despesa);
-			}
-
-		}printf("$%llf\n", despesas);
-		scanf("%d", &n);
-
-	}
+    }
 
 	return 0;
 
