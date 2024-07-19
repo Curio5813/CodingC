@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/derivada_de_13_variaveis.c
+        beecrowd/plantando_arvores.c
 
 )
 
