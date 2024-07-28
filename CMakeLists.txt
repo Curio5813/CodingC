@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/um_jogo_com_bolas_de_gude.c
+        beecrowd/numerando_estradas.c
 
 )
 
