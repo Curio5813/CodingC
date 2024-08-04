@@ -7,8 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-        beecrowd/sequencia_do_tio_phill_bonati.c
-
+        beecrowd/corrida.c
 
 )
 
