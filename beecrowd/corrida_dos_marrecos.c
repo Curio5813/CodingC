@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 
 int main(){
@@ -6,7 +7,7 @@ int main(){
     long int n;
 
     while(scanf("%ld", &n) != EOF){
-        long int cont = 1, corridas = 1;
+        long int corridas = 0, aprox;
         if(n == 0){
             break;
         }
@@ -14,11 +15,10 @@ int main(){
             printf("%d\n", 0);
         }
         else{
-            for(long int i = 2; i <= n; i++){
-                if(cont % 3 == 0){
-                    corridas += 2;
-                }
-                cont += 1;
+            while(n > 1){
+                aprox = ceil((double) n / 3.0);
+                corridas += aprox;
+                n = aprox;
             }
             printf("%ld\n", corridas);
         }
