@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lm")
 
 
 add_executable(CodingC
-       beecrowd/rabiola.c
+        beecrowd/emplacando_os_tuk_tuks.c
 
 
 )
