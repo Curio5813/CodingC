@@ -1,7 +1,18 @@
 # ninja log v6
 1	66	1724349763378292849	CMakeFiles/CodingC.dir/beecrowd/rabiola.c.o	3685fdf5eb6ed685
-1	39	1724426174303531518	build.ninja	6e210ae5141b229e
-66	107	1724349763442292624	CodingC	154634085bce5f29
-1	40	1724426174303531518	build.ninja	6e210ae5141b229e
+1	44	1724691234957875590	build.ninja	6e210ae5141b229e
+3	76	1724698170257455696	CMakeFiles/CodingC.dir/beecrowd/participando_de_uma_maratona.c.o	59d69337567d33e5
+76	112	1724698170330455255	CodingC	ed106fcfa052114c
 1	177	1724426174318531578	CMakeFiles/CodingC.dir/beecrowd/emplacando_os_tuk_tuks.c.o	f53e8b0a63294541
-177	244	1724426174494532278	CodingC	556346a24e7213b9
+1	76	1724698205655241696	CMakeFiles/CodingC.dir/beecrowd/participando_de_uma_maratona.c.o	59d69337567d33e5
+76	117	1724698205729241247	CodingC	ed106fcfa052114c
+4	70	1724698221676144552	CMakeFiles/CodingC.dir/beecrowd/participando_de_uma_maratona.c.o	59d69337567d33e5
+70	107	1724698221743144146	CodingC	ed106fcfa052114c
+1	75	1724698310400603641	CMakeFiles/CodingC.dir/beecrowd/participando_de_uma_maratona.c.o	59d69337567d33e5
+75	112	1724698310473603194	CodingC	ed106fcfa052114c
+1	72	1724698381361167845	CMakeFiles/CodingC.dir/beecrowd/participando_de_uma_maratona.c.o	59d69337567d33e5
+72	118	1724698381433167402	CodingC	ed106fcfa052114c
+2	71	1724698612046735314	CMakeFiles/CodingC.dir/beecrowd/participando_de_uma_maratona.c.o	59d69337567d33e5
+71	109	1724698612115734883	CodingC	ed106fcfa052114c
+2	72	1724698630621619135	CMakeFiles/CodingC.dir/beecrowd/participando_de_uma_maratona.c.o	59d69337567d33e5
+72	110	1724698630691618697	CodingC	ed106fcfa052114c
