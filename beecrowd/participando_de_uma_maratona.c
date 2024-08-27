@@ -25,7 +25,7 @@ int main(){
         }
         // printf("\n");
     }
-    long long int instantes[10000000][2];
+    long long int instantes[1000][2];
     for(long long int i = 0; i < r; i++){
         tempo = 0;
         posicao = 0;
@@ -57,7 +57,7 @@ int main(){
         posicao = 0;
         idx2 = idx1;
         //printf("%lld %lld %lld\n", q, idx1, maior);
-        long long int instantes2[10000000][2];
+        long long int instantes2[1000][2];
         for(long long int j = 0; j < idx1; j++){
             for(long long int k = 0; k < 2; k++){
                 instantes2[j][k] = instantes[j][k];
