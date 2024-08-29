@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 
+
 int main(){
 
     long long int r, p, q, maior = 0, tempo, posicao, idx1 = 0, idx2, sucesso = 0, descarte;
