@@ -21,6 +21,7 @@ int main(){
             }
         }
         printf("%lld\n", minutos);
+        // teste
     }
 
     return 0;
