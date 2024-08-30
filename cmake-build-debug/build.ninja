@@ -65,7 +65,7 @@ build CMakeFiles/CodingC.dir/beecrowd/fazendo_nada.c.o: C_COMPILER__CodingC_unsc
 
 build CodingC: C_EXECUTABLE_LINKER__CodingC_Debug CMakeFiles/CodingC.dir/beecrowd/fazendo_nada.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lm
+  LINK_LIBRARIES = -lm -lgmp
   OBJECT_DIR = CMakeFiles/CodingC.dir
   POST_BUILD = :
   PRE_LINK = :
