@@ -1,22 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 
 int main(){
 
-    long long int n;
+    long long int n, *bacias;
 
     while(scanf("%lld", &n)) {
         if (n == 0) {
             break;
         } else {
-            long long int bacias[n], rodadas = 0, soma = 0, verifica = 0, flag = 0, cont = 0;
+            long long int rodadas = 0, soma = 0, verifica = 0, flag = 0, cont = 0;
             for (int i = 0; i < n; i++) {
                 scanf("%lld", &bacias[i]);
                 soma += bacias[i];
             }
-            while (flag == 0) {
-                for (int i = 0; i < n; i++) {
-                    for (int j = 0; j < i; j++) {
+            while (1) {
+                for (long long int i = 0; i < n; i++) {
+                    for (long long int j = 0; j < i; j++) {
                         if (i == 0) {
                             bacias[i] -= 1;
                         }
@@ -34,7 +35,7 @@ int main(){
                         }
                     }
                 }
-                for (int i = 0; i < n; i++) {
+                for (long long int i = 0; i < n; i++) {
                     verifica += bacias[i];
                     if(bacias[i] == 0){
                         cont += 1;
@@ -45,7 +46,7 @@ int main(){
                 }
                 printf("\n");
                 if (verifica == 0) {
-                    flag = 1;
+                    break;
                 }
             }
             printf("%lld\n", rodadas + soma);

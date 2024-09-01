@@ -4,7 +4,7 @@
 
 int main(){
 
-	int a, b, temp, x = 9, y = 7, step = 0;
+	long long int a, b, temp, x = 9, y = 7, step = 0;
 
     while(x < 10000){
         a = x;
@@ -14,9 +14,9 @@ int main(){
             a = b;
             b = temp % a;
             step += 1;
-            printf("%d %d %d\n", x, y, step);
+            printf("%lld %lld %lld\n", x, y, step);
             if(step == 5 && b == 0) {
-                return printf("%d %d %d\n", x, y, step);
+                return printf("%lld %lld %lld\n", x, y, step);
             }
             if(step < 5 && b == 0) {
                 step = 0;
