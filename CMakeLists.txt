@@ -8,7 +8,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lgmp")
 
 
 add_executable(CodingC
-        beecrowd/diversao_dos_alunos.c
+        beecrowd/dividindo_com_fink.c
 
 
 )
