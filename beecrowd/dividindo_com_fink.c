@@ -28,11 +28,10 @@ int main(){
                 }
             }
         }
-        while(raposa < div_raposa){
+        while(div_raposa + picapau > comida){
             picapau -= 1;
-            raposa += 1;
         }
-        printf("%ld %ld\n", raposa, picapau);
+        printf("%ld %ld\n", div_raposa, picapau);
     }
 
     return 0;
