@@ -8,7 +8,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lgmp")
 
 
 add_executable(CodingC
-        beecrowd/cofrinhos_da_vo_vitoria.c
+        beecrowd/bafo.c
 
 
 )
