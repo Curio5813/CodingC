@@ -8,8 +8,7 @@ set(CMAKE_C_STANDARD_LIBRARIES "${CMAKE_C_STANDARD_LIBRARIES} -lgmp")
 
 
 add_executable(CodingC
-        beecrowd/bafo.c
-
+        beecrowd/assigning_teams.c
 
 )
 
