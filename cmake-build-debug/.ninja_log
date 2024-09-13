@@ -1,16 +1,13 @@
 # ninja log v6
-2	170	1726077997575639374	CMakeFiles/CodingC.dir/beecrowd/consecutivos.c.o	6cb8f8e81d379a1f
-1	171	1726077997574639382	CMakeFiles/CodingC.dir/beecrowd/assigning_teams.c.o	6e2df6c60189fa71
-1	56	1725727196976277765	CMakeFiles/CodingC.dir/beecrowd/cofrinhos_da_vo_vitoria.c.o	8ae3f0cc2c25c3c3
-1	73	1725648479512080093	CMakeFiles/CodingC.dir/beecrowd/dividindo_com_fink_solucao_02.c.o	2d4aa5f8d7bb19c8
-1	41	1726078018060482747	build.ninja	9ef2667771adb59f
-2	82	1725443768385600144	CMakeFiles/CodingC.dir/CodeAbbey/problem385.c.o	419528fbca1fdf7d
-1	54	1725444494431282153	CMakeFiles/CodingC.dir/beecrowd/diversao_dos_alunos.c.o	be9d298ef3ddbd65
-67	110	1725992941756785687	CodingC	f21b7922afc44d38
 1	65	1725626408293171290	CMakeFiles/CodingC.dir/beecrowd/dividindo_com_fink.c.o	642580d2a7079e13
-1	43	1726078018060482747	build.ninja	9ef2667771adb59f
-1	49	1726078018074482640	CodingC	cc929aa88e3fad36
-2	64	1726078336731059283	CMakeFiles/CodingC.dir/beecrowd/consecutivos.c.o	6cb8f8e81d379a1f
-64	109	1726078336793058814	CodingC	cc929aa88e3fad36
-2	66	1726078684852430335	CMakeFiles/CodingC.dir/beecrowd/consecutivos.c.o	6cb8f8e81d379a1f
 67	114	1726078684917429845	CodingC	cc929aa88e3fad36
+1	54	1725444494431282153	CMakeFiles/CodingC.dir/beecrowd/diversao_dos_alunos.c.o	be9d298ef3ddbd65
+2	82	1725443768385600144	CMakeFiles/CodingC.dir/CodeAbbey/problem385.c.o	419528fbca1fdf7d
+1	43	1726244463252416995	build.ninja	9ef2667771adb59f
+1	73	1725648479512080093	CMakeFiles/CodingC.dir/beecrowd/dividindo_com_fink_solucao_02.c.o	2d4aa5f8d7bb19c8
+1	56	1725727196976277765	CMakeFiles/CodingC.dir/beecrowd/cofrinhos_da_vo_vitoria.c.o	8ae3f0cc2c25c3c3
+1	171	1726077997574639382	CMakeFiles/CodingC.dir/beecrowd/assigning_teams.c.o	6e2df6c60189fa71
+2	66	1726078684852430335	CMakeFiles/CodingC.dir/beecrowd/consecutivos.c.o	6cb8f8e81d379a1f
+1	41	1726244463252416995	build.ninja	9ef2667771adb59f
+0	146	1726244463266416897	CMakeFiles/CodingC.dir/beecrowd/elevador.c.o	b4bceb95a4bbe25f
+146	256	1726244463411415887	CodingC	b3c2ca6921443781
