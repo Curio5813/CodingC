@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/marcos/Computacao/CodingC/cmake-build-debug/
 
 build cmake_object_order_depends_target_CodingC: phony || .
 
-build CMakeFiles/CodingC.dir/beecrowd/elevador.c.o: C_COMPILER__CodingC_unscanned_Debug /home/marcos/Computacao/CodingC/beecrowd/elevador.c || cmake_object_order_depends_target_CodingC
-  DEP_FILE = CMakeFiles/CodingC.dir/beecrowd/elevador.c.o.d
+build CMakeFiles/CodingC.dir/beecrowd/chocolate2.c.o: C_COMPILER__CodingC_unscanned_Debug /home/marcos/Computacao/CodingC/beecrowd/chocolate2.c || cmake_object_order_depends_target_CodingC
+  DEP_FILE = CMakeFiles/CodingC.dir/beecrowd/chocolate2.c.o.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CodingC.dir
   OBJECT_FILE_DIR = CMakeFiles/CodingC.dir/beecrowd
@@ -63,7 +63,7 @@ build CMakeFiles/CodingC.dir/beecrowd/elevador.c.o: C_COMPILER__CodingC_unscanne
 #############################################
 # Link the executable CodingC
 
-build CodingC: C_EXECUTABLE_LINKER__CodingC_Debug CMakeFiles/CodingC.dir/beecrowd/elevador.c.o
+build CodingC: C_EXECUTABLE_LINKER__CodingC_Debug CMakeFiles/CodingC.dir/beecrowd/chocolate2.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lm -lgmp
   OBJECT_DIR = CMakeFiles/CodingC.dir
@@ -77,7 +77,7 @@ build CodingC: C_EXECUTABLE_LINKER__CodingC_Debug CMakeFiles/CodingC.dir/beecrow
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/marcos/Computacao/CodingC/cmake-build-debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/marcos/Computacao/CodingC/cmake-build-debug && /snap/clion/296/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -88,7 +88,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/marcos/Computacao/CodingC/cmake-build-debug && /snap/clion/292/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/marcos/Computacao/CodingC -B/home/marcos/Computacao/CodingC/cmake-build-debug
+  COMMAND = cd /home/marcos/Computacao/CodingC/cmake-build-debug && /snap/clion/296/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/marcos/Computacao/CodingC -B/home/marcos/Computacao/CodingC/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -115,14 +115,14 @@ build all: phony CodingC
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/marcos/Computacao/CodingC/CMakeLists.txt /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/marcos/Computacao/CodingC/CMakeLists.txt /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/marcos/Computacao/CodingC/CMakeLists.txt /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /snap/clion/292/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build /home/marcos/Computacao/CodingC/CMakeLists.txt /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################
