@@ -31,12 +31,15 @@ int main() {
             if (flag == 1) {
                 //printf("%lld\n", tempos[i]);
                 printf("%lld\n", idx + 1);
-                tempos[idx] = 9999999;
+                tempos[idx] = 9999999999;
                 cont += 1;
                 if (cont >= 3) {
                     break;
                 }
             }
+        }
+        if(cont >= 3){
+            break;
         }
     }
 
