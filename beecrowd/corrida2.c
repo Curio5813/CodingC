@@ -38,9 +38,6 @@ int main() {
                 }
             }
         }
-        if(cont >= 3){
-            break;
-        }
     }
 
     return 0;
