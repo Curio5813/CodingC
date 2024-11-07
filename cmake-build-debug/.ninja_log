@@ -1,12 +1,14 @@
 # ninja log v6
-4	75	1726834162959727428	CMakeFiles/CodingC.dir/beecrowd/chocolate2.c.o	bd4abb4d31568795
-2	79	1726834162957727376	CMakeFiles/CodingC.dir/beecrowd/elevador.c.o	b4bceb95a4bbe25f
-1	35	1728923848787681773	build.ninja	de7d2687185baab
-2	64	1727997432977097052	CMakeFiles/CodingC.dir/beecrowd/receita_de_bolo.c.o	dc5ae1f8a544bbe0
-1	148	1727997332389833654	CMakeFiles/CodingC.dir/beecrowd/guerra_por_territorio.c.o	5a0f9f1a7a8927ab
-1	157	1727029541822158705	CMakeFiles/CodingC.dir/beecrowd/corrida3.c.o	7c856a1dbc3d1623
-64	108	1727997433039096597	CodingC	f486ce21ed0f6f9
-1	52	1727826221258011322	CMakeFiles/CodingC.dir/beecrowd/carnaval.c.o	a73dde84c1780610
 1	63	1726954892530504223	CMakeFiles/CodingC.dir/beecrowd/corrida2.c.o	ac115a2a8e2b779e
-1	140	1728924196104960335	CMakeFiles/CodingC.dir/beecrowd/volume_da_tv.c.o	9688722104504ee7
+1	52	1727826221258011322	CMakeFiles/CodingC.dir/beecrowd/carnaval.c.o	a73dde84c1780610
 140	211	1728924196243961491	CodingC	4109a5e17ac54cf4
+1	157	1727029541822158705	CMakeFiles/CodingC.dir/beecrowd/corrida3.c.o	7c856a1dbc3d1623
+1	148	1727997332389833654	CMakeFiles/CodingC.dir/beecrowd/guerra_por_territorio.c.o	5a0f9f1a7a8927ab
+2	64	1727997432977097052	CMakeFiles/CodingC.dir/beecrowd/receita_de_bolo.c.o	dc5ae1f8a544bbe0
+1	140	1728924196104960335	CMakeFiles/CodingC.dir/beecrowd/volume_da_tv.c.o	9688722104504ee7
+1	35	1731010849275865326	build.ninja	de7d2687185baab
+2	79	1726834162957727376	CMakeFiles/CodingC.dir/beecrowd/elevador.c.o	b4bceb95a4bbe25f
+4	75	1726834162959727428	CMakeFiles/CodingC.dir/beecrowd/chocolate2.c.o	bd4abb4d31568795
+1	40	1731010849275865326	build.ninja	de7d2687185baab
+1	155	1731010849289865265	CMakeFiles/CodingC.dir/beecrowd/acoes.c.o	4fc3995358b7c0f
+155	236	1731010849443864591	CodingC	5f682c48f5535de7
