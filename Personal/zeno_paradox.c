@@ -10,7 +10,7 @@ int main(){
 
 	while(zeno < turtle){
 
-		turtle += 13;
+		turtle += 10;
 		zeno += distance;
 		distance /= 2;
 		cont += 1;
