@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 
-
 int main(){
 
-    int soma1 = 0, soma2 = 0, numero = 2, flag = 0;
+    int i, soma1 = 0, soma2 = 0, numero = 2, flag = 0;
 
     while(numero <= 10000){
         for(int i = 1; i < numero; i++){
@@ -12,8 +11,11 @@ int main(){
                 soma1 += i;
             }
         }
-        for(int i = 1; i < numero * 2; i++){
+        for(int i = 1; i < numero * 1.5; i++){
             for(int j = 1; j < i; j++){
+                if(i % 7 == 0 || i % 5 == 0){
+                    break;
+                }
                 if(i % j == 0){
                     soma2 += j;
                 }
@@ -31,7 +33,7 @@ int main(){
                 soma2 = 0;
             }
         }
-        numero = i;
+        numero += 1;
         soma1 = 0;
 
     }
