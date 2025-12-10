@@ -1,42 +1,33 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
+int main() {
+	char s[50];
 
-int main(){
+	while (scanf("%s", s) != EOF) {
 
-	char str_col[26];
+		int len = strlen(s);
 
-	int idx, entrada;
-
-	while(scanf("%s", &str_col) != EOF){
-
-		while(strlen(str_col) > 3){
-			printf("Essa coluna nao existe Tobias!");
-			scanf("%s", &str_col);
-
-		// Usando a numeração decimal da Tabela ASCII para achar os índices
-		}if(strlen(str_col) == 1){
-			printf("%d\n", str_col[0] - 64);
-
-		}else if(strlen(str_col) == 2){
-			printf("%d\n", (str_col[0] - 64) * 26 + (str_col[1] - 64));
-
-		}else if(strlen(str_col) == 3){
-			idx = ("%d\n", (str_col[0] - 64) * 26 * 26 + (str_col[1] - 64) * 26 + str_col[2] - 64);
-
-			if(idx > 16384){
-				printf("Essa coluna nao existe Tobias!");
-
-			}else if(idx <= 16384){
-				printf("%d\n", idx);
-
-			}
-
+		// Limite de tamanho (Excel só vai até 3 letras: XFD)
+		if (len > 3) {
+			printf("Essa coluna nao existe Tobias!\n");
+			continue;
 		}
 
+		long long idx = 0;
+
+		// Converte estilo Excel: A=1, B=2... Z=26 (base 26)
+		for (int i = 0; i < len; i++) {
+			idx = idx * 26 + (s[i] - 'A' + 1);
+		}
+
+		// Excel termina em XFD (16384)
+		if (idx > 16384) {
+			printf("Essa coluna nao existe Tobias!\n");
+		} else {
+			printf("%lld\n", idx);
+		}
 	}
 
 	return 0;
-
 }
