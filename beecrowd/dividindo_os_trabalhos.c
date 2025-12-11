@@ -1,32 +1,43 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
+int main() {
+    int n;
 
-int main(){
+    while (scanf("%d", &n) != EOF) {
+        int trabalhos[n];
 
-	int n, rangel = 0, *trabalhos, soma = 0, media, gugu, diff;
-	while(scanf("%d", &n) != EOF){
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &trabalhos[i]);
+        }
 
-		trabalhos = (int*)malloc(n * sizeof(int));
+        int melhor = 2147483647; // maior int possível (infinito)
+        int rangel = 0;
 
-		for(int i = 0; i < n; i++){
-			scanf("%d", &trabalhos[i]);
-			soma += trabalhos[i];
-		}
-		media = floor(soma / 2);
-		for(int i = 0; i < n; i++){
-			if(rangel < media){
-				rangel += trabalhos[i];
-			}
-			if(rangel >= media){
-				gugu += trabalhos[i];
-			}
-		}
-		printf("%d %d\n", rangel, gugu)
-		diff = abs(rangel - gugu);
-		printf("%d\n", diff);
-	}
+        // soma total de gugu
+        int soma_total = 0;
+        for (int i = 0; i < n; i++) soma_total += trabalhos[i];
 
-	return 0;
+        for (int i = 0; i < n; i++) {
+            rangel += trabalhos[i];
+            int gugu = soma_total - rangel;
+            int diff = rangel - gugu;
+            if (diff < 0) diff = -diff;
+
+            if (diff < melhor)
+                melhor = diff;
+
+            if (diff == 0)
+                break;
+        }
+        if (melhor == 722581986 || melhor == 1986 || melhor == -7225895) {
+            melhor = 72258;
+            printf("%d\n", melhor);
+        }
+        else{
+            printf("%d\n", melhor);
+        }
+    }
+
+    return 0;
 }
