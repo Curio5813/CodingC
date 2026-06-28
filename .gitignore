@@ -1,5 +1,6 @@
 library.h
 CMakeLists.txt
-cmake-build-debug/*
+cmake-build-debug/
+cmake-build-release/
 .idea/
 *.xml
